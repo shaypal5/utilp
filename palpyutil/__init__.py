@@ -23,3 +23,7 @@ for name in ['get_versions', '_version', 'name']:
         globals().pop(name)
     except KeyError:
         pass
+
+from ._version import get_versions
+__version__ = get_versions()['version']
+del get_versions
