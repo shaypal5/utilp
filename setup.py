@@ -23,7 +23,9 @@ TEST_REQUIRES = ['pytest', 'coverage', 'pytest-cov']
 
 setup(
     name='palpyutil',
-    description="Fast matching of source-sharing derivative time series.",
+    description=(
+        "Shay Palachy's personal common Python 3 utility functions and "
+        "classes."),
     long_description=README_RST,
     author="Shay Palachy",
     author_email="shaypal5@gmail.com",

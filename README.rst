@@ -2,7 +2,7 @@ palpyutil
 ##############
 .. |PyPI-Status| |PyPI-Versions| |Build-Status| |Codecov| |LICENCE|
 
-Fast optimal matching of items for source-sharing derivative time series.
+Shay Palachy's personal common Python 3 utility functions and classes.
 
 .. code-block:: python
 

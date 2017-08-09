@@ -1,4 +1,4 @@
-"""The base package of the palpyutil."""
+"""Shay Palachy's personal common Python 3 utility functions and classes."""
 
 # flake8: noqa  # prevents 'imported but unused' erros
 
