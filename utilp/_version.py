@@ -42,8 +42,8 @@ def get_config():
     cfg.VCS = "git"
     cfg.style = "pep440"
     cfg.tag_prefix = "v"
-    cfg.parentdir_prefix = "palpyutil-"
-    cfg.versionfile_source = "palpyutil/_version.py"
+    cfg.parentdir_prefix = "utilp-"
+    cfg.versionfile_source = "utilp/_version.py"
     cfg.verbose = False
     return cfg
 

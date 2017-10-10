@@ -1,2 +1,2 @@
 include versioneer.py
-include palpyutil/_version.py
+include utilp/_version.py

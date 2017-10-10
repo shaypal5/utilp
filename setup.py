@@ -1,4 +1,4 @@
-"""Setup for the palpyutil package."""
+"""Setup for the utilp package."""
 
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
@@ -16,13 +16,13 @@ with open('README.rst') as f:
     README_RST = f.read()
 
 INSTALL_REQUIRES = [
-    'numpy', 'sortedcontainers',
+    'tqdm',
 ]
 TEST_REQUIRES = ['pytest', 'coverage', 'pytest-cov']
 
 
 setup(
-    name='palpyutil',
+    name='utilp',
     description=(
         "Shay Palachy's personal common Python 3 utility functions and "
         "classes."),
@@ -31,16 +31,16 @@ setup(
     author_email="shaypal5@gmail.com",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
-    url='https://github.com/shaypal5/palpyutil',
+    url='https://github.com/shaypal5/utilp',
     license="MIT",
-    packages=['palpyutil'],
+    packages=['utilp'],
     install_requires=INSTALL_REQUIRES,
     extras_require={
         'test': TEST_REQUIRES
     },
     setup_requires=INSTALL_REQUIRES,
     platforms=['any'],
-    keywords='pandas dataframe pipeline data',
+    keywords='utility',
     classifiers=[
         # Trove classifiers
         # (https://pypi.python.org/pypi?%3Aaction=list_classifiers)
