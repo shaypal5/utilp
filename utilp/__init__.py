@@ -5,7 +5,7 @@
 # import utilp.classes as classes
 # import utilp.constants as constants
 # import utilp.contextmanagers as contextmanagers
-import utilp.classes as decorators
+import utilp.classes as classes
 # import utilp.exceptions as exceptions
 # import utilp.functions as functions
 # import utilp.generators as generators
