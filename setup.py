@@ -3,10 +3,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import (
+    setup,
+    find_packages,
+)
 
 import versioneer
 
@@ -33,7 +33,7 @@ setup(
     cmdclass=versioneer.get_cmdclass(),
     url='https://github.com/shaypal5/utilp',
     license="MIT",
-    packages=['utilp'],
+    packages=find_packages(exclude=['dist', 'docs', 'tests']),
     install_requires=INSTALL_REQUIRES,
     extras_require={
         'test': TEST_REQUIRES
