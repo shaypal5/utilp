@@ -103,3 +103,21 @@ ENV/
 
 # vim swap files
 *.swp
+
+# pytest
+.pytest-cache/
+.pytest-cache/*
+.pytest*
+
+# pipfiles
+Pipfile
+Pipfile.lock
+
+# mac os stupid icon caches
+.DS_Store
+
+tests/*.gz
+notebooks/*.gz
+
+mlruns/*
+mlruns
