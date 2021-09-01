@@ -2,7 +2,7 @@
 
 import os
 
-from utilp.func import (  # noqa: F401
+from utilp.func.path import (  # noqa: F401
     is_pathname_valid,
     is_path_creatable,
     path_exists_or_creatable,

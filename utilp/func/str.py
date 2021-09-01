@@ -22,7 +22,7 @@ def str_replace_by_dict(string: str, rep_dict: dict) -> str:
     -------
         >>> rep_dict = {'cat': 'dog', 'a': 'b'}
         >>> str_replace_by_dict('my cat is a friend', rep_dict)
-        "my dog is b friend"
+        'my dog is b friend'
     """
     rep = dict((re.escape(k), v) for k, v in rep_dict.items())
     pattern = re.compile("|".join(rep.keys()))
