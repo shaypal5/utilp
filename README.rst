@@ -33,8 +33,8 @@ Created by Shay Palachy  (shay.palachy@gmail.com).
 .. |PyPI-Versions| image:: https://img.shields.io/pypi/pyversions/utilp.svg
    :target: https://pypi.python.org/pypi/utilp
 
-.. |Build-Status| image:: https://travis-ci.org/shaypal5/utilp.svg?branch=master
-  :target: https://travis-ci.org/shaypal5/utilp
+.. |Build-Status| image:: https://github.com/shaypal5/utilp/actions/workflows/test.yml/badge.svg
+  :target: https://github.com/shaypal5/utilp/actions/workflows/test.yml
 
 .. |LICENCE| image:: https://img.shields.io/pypi/l/utilp.svg
   :target: https://pypi.python.org/pypi/utilp
